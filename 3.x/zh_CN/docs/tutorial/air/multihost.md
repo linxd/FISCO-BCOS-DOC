@@ -27,7 +27,23 @@
 # 创建操作路径~/fisco
 mkdir -p ~/fisco && cd ~/fisco
 
-# download_bin.sh, 下载fisco-bcos二进制程序, v指定FISCO-BCOS版本
+# download_bin.sh, 下载fisco-bcos二进制程序, v指定FISCO-BCOS版本=======>> 没有说明这个从哪里来，还是意指让用户下载发布的二进制文件：
+ # BcosBuilder.tgz
+ #BcosGatewayService-linux-x86_64.tgz
+ #BcosMaxNodeService-macOS-x86_64.tgz
+ #BcosGatewayService-macOS-x86_64.tgz
+ #BcosNodeService-macOS-x86_64.tgz
+ #BcosRpcService-macOS-x86_64.tgz
+ #build_chain.sh
+ #BcosNodeService-linux-x86_64.tgz
+ #fisco-bcos-linux-x86_64.tar.gz
+ #BcosExecutorService-macOS-x86_64.tgz
+ #BcosMaxNodeService-linux-x86_64.tgz
+ #BcosRpcService-linux-x86_64.tgz
+ #BcosExecutorService-linux-x86_64.tgz
+ #fisco-bcos-macOS-x86_64.tar.gz
+ #。。。 不得而知。
+ 
 ./download_bin.sh -v 3.0.1
 
 # 下载开发部署工具build_chain
